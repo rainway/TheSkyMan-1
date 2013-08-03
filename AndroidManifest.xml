@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="18" />
 
     <application
         android:allowBackup="true"
@@ -29,6 +29,13 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.theskyman.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.theskyman.Box2dActivity" 
+            android:parentActivityName="com.theskyman.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY" 
+                android:value="com.theskyman.MainActivity"/>
         </activity>
     </application>
 </manifest>
